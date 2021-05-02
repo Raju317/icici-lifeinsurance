@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="2" name="icici.HelloWorldIT" time="2.749" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\My_Projects\ICICI\services\life-insurance"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="E:\My_Projects\ICICI\services\life-insurance"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="E:\My_Projects\ICICI\services\life-insurance\target\surefire\surefirebooter8595407701190341199.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\lenovo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_291\bin;E:\DevOps Softwares\Maven\apache-maven-3.8.1\bin;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="surefire.test.class.path" value="E:\My_Projects\ICICI\services\life-insurance\target\test-classes;E:\My_Projects\ICICI\services\life-insurance\target\classes;C:\Users\lenovo\.m2\repository\org\apache\tomee\patch\cxf-rt-frontend-jaxrs\2.6.17-TomEE\cxf-rt-frontend-jaxrs-2.6.17-TomEE.jar;C:\Users\lenovo\.m2\repository\org\apache\tomee\patch\cxf-api\2.6.17-TomEE\cxf-api-2.6.17-TomEE.jar;C:\Users\lenovo\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.0\woodstox-core-asl-4.4.0.jar;C:\Users\lenovo\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\lenovo\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.0.3\xmlschema-core-2.0.3.jar;C:\Users\lenovo\.m2\repository\org\apache\geronimo\specs\geronimo-javamail_1.4_spec\1.7.1\geronimo-javamail_1.4_spec-1.7.1.jar;C:\Users\lenovo\.m2\repository\wsdl4j\wsdl4j\1.6.3\wsdl4j-1.6.3.jar;C:\Users\lenovo\.m2\repository\org\apache\tomee\patch\cxf-rt-core\2.6.17-TomEE\cxf-rt-core-2.6.17-TomEE.jar;C:\Users\lenovo\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1.13\jaxb-impl-2.1.13.jar;C:\Users\lenovo\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\lenovo\.m2\repository\org\apache\tomee\patch\cxf-rt-bindings-xml\2.6.17-TomEE\cxf-rt-bindings-xml-2.6.17-TomEE.jar;C:\Users\lenovo\.m2\repository\org\apache\tomee\patch\cxf-rt-transports-http\2.6.17-TomEE\cxf-rt-transports-http-2.6.17-TomEE.jar;C:\Users\lenovo\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.6\jackson-core-asl-1.8.6.jar;C:\Users\lenovo\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.6\jackson-mapper-asl-1.8.6.jar;C:\Users\lenovo\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.8.6\jackson-jaxrs-1.8.6.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-web\3.0.7.RELEASE\spring-web-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-beans\3.0.7.RELEASE\spring-beans-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-context\3.0.7.RELEASE\spring-context-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-aop\3.0.7.RELEASE\spring-aop-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-expression\3.0.7.RELEASE\spring-expression-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-asm\3.0.7.RELEASE\spring-asm-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-core\3.0.7.RELEASE\spring-core-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\lenovo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\lenovo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\lenovo"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="lenovo"/>
+    <property name="java.class.path" value="E:\My_Projects\ICICI\services\life-insurance\target\test-classes;E:\My_Projects\ICICI\services\life-insurance\target\classes;C:\Users\lenovo\.m2\repository\org\apache\tomee\patch\cxf-rt-frontend-jaxrs\2.6.17-TomEE\cxf-rt-frontend-jaxrs-2.6.17-TomEE.jar;C:\Users\lenovo\.m2\repository\org\apache\tomee\patch\cxf-api\2.6.17-TomEE\cxf-api-2.6.17-TomEE.jar;C:\Users\lenovo\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.0\woodstox-core-asl-4.4.0.jar;C:\Users\lenovo\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\lenovo\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.0.3\xmlschema-core-2.0.3.jar;C:\Users\lenovo\.m2\repository\org\apache\geronimo\specs\geronimo-javamail_1.4_spec\1.7.1\geronimo-javamail_1.4_spec-1.7.1.jar;C:\Users\lenovo\.m2\repository\wsdl4j\wsdl4j\1.6.3\wsdl4j-1.6.3.jar;C:\Users\lenovo\.m2\repository\org\apache\tomee\patch\cxf-rt-core\2.6.17-TomEE\cxf-rt-core-2.6.17-TomEE.jar;C:\Users\lenovo\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1.13\jaxb-impl-2.1.13.jar;C:\Users\lenovo\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\lenovo\.m2\repository\org\apache\tomee\patch\cxf-rt-bindings-xml\2.6.17-TomEE\cxf-rt-bindings-xml-2.6.17-TomEE.jar;C:\Users\lenovo\.m2\repository\org\apache\tomee\patch\cxf-rt-transports-http\2.6.17-TomEE\cxf-rt-transports-http-2.6.17-TomEE.jar;C:\Users\lenovo\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.6\jackson-core-asl-1.8.6.jar;C:\Users\lenovo\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.6\jackson-mapper-asl-1.8.6.jar;C:\Users\lenovo\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.8.6\jackson-jaxrs-1.8.6.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-web\3.0.7.RELEASE\spring-web-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-beans\3.0.7.RELEASE\spring-beans-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-context\3.0.7.RELEASE\spring-context-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-aop\3.0.7.RELEASE\spring-aop-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-expression\3.0.7.RELEASE\spring-expression-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-asm\3.0.7.RELEASE\spring-asm-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\org\springframework\spring-core\3.0.7.RELEASE\spring-core-3.0.7.RELEASE.jar;C:\Users\lenovo\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\lenovo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\lenovo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="sun.java.command" value="E:\My_Projects\ICICI\services\life-insurance\target\surefire\surefirebooter8595407701190341199.jar E:\My_Projects\ICICI\services\life-insurance\target\surefire\surefire452429601484190630tmp E:\My_Projects\ICICI\services\life-insurance\target\surefire\surefire8377251509941968301tmp"/>
+    <property name="service.url" value="http://localhost:49997/jaxrs-service"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\lenovo\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="icici.HelloWorldIT" name="testJsonRoundtrip" time="2.63">
+    <failure message="expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;404&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at icici.HelloWorldIT.testJsonRoundtrip(HelloWorldIT.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</failure>
+  </testcase>
+  <testcase classname="icici.HelloWorldIT" name="testPing" time="0.013">
+    <failure message="expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;404&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at icici.HelloWorldIT.testPing(HelloWorldIT.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:119)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</failure>
+  </testcase>
+</testsuite>
